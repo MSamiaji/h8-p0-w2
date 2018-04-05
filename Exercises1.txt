@@ -1,0 +1,63 @@
+1. Newton Second Law
+     algoritma:
+	1. buat variabel SF
+	2. buat variabel m yang isinya 600
+	3. buat variabel a yang isinya 2
+	4. hitung m dikali a lalu masukan nilai SF
+	5. tampilkan SF
+     pseudocode:
+	READ resultan
+	READ m=600
+	READ a=2
+	COMPUTE resultan AS m*a
+	DISPLAY resultan
+
+2. Tahun Kabisat
+     algoritma:
+	1. buat variabel Tahun
+	2. hitung sisa pembagian tahun di bagi 4
+	3. hitung jika sisa pembagian di bagi 100
+	4. hitung jika sisa pembagian habis di bagi 400 
+	5. tampilkan tahun kabisat atau bukan kabisat
+     pseudocode:
+	READ tahun
+	IF (tahun % 4 == 0)
+	ELSE IF (tahun % 100 == 0) THEN
+	   WRITE kabisat
+	ELSE IF (tahun % 400 == 0) THEN
+	   WRITE kabisat
+	 ELSE
+	   WRITE bukan kabisat
+
+3. Laundry Day
+     algoritma:
+	1. buat variabel pakaian
+	2. buat variabel jumlah pakaian
+	3. hutung jumlah pakaian sampai 20 
+	4. pakaian sudah 20 mulai mencuci
+     pseudocode:
+	READ pakaian
+	READ jumlah pakaian == 0
+	REPEAT
+		INPUT jumlah pakaian + pakaian
+	UNTIL (jumlah pakaian == 20)
+	 	OUTPUT mulai mencuci
+	   
+4. Periksa Kuku
+     algoritma:
+	1. buat variabel siswa
+	2. buat variabel jumlah kuku panjang
+	3. buat variabel jumlah kuku pendek
+	4. hitung jumlah kuku panjang
+	5. hutung jumlah kuku pendek
+	6. beri tindakan
+     pseudocode:
+	READ siswa
+	READ jumlah kuku panjang
+	READ jumlah kuku pendek
+	COMPUTE siswa
+	 IF kuku panjang dipuji
+	 ELSE kuku pendek dihukum
+	    
+
+
